@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamburge.jpg" alt="" width="30" height="30">
+        </button>
+        <div class="mobile-nav ">
+            <button class="times">
+                <img src="./images/bulb.png" alt="" height="40" width="40">
+            </button>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+        </div>
+        <script>
+            alert("For better view in mobile,open in Desktop view.");
+            var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?44646';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+                "enabled": true,
+                "chatButtonSetting": {
+                    "backgroundColor": "#4dc247",
+                    "ctaText": "Whatsapp",
+                    "borderRadius": "25",
+                    "marginLeft": "0",
+                    "marginBottom": "50",
+                    "marginRight": "50",
+                    "position": "right"
+                },
+                "brandSetting": {
+                    "brandName": "WATI",
+                    "brandSubTitle": "Typically replies within a day",
+                    "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+                    "welcomeText": "Hi there!\nIt's Piyush...!\nHow can I help you?",
+                    "messageText": "Hello, I have a question about {{page_link}}",
+                    "backgroundColor": "#0a5f54",
+                    "ctaText": "Start Chat",
+                    "borderRadius": "25",
+                    "autoShow": false,
+                    "phoneNumber": "918340183196"
+                }
+            };
+            s.onload = function () {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        </script>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo piyush.jpg" alt="" width="80" height="70">
+
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#Education">Education</a>
+                            <a href="#Projects">Projects</a>
+                            <a href="#languages">Languages</a>
+                            <a href="#certificates">Certificates</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">
+                            <a href="#Contacts">
+                                <h6>Contact</h6>
+                            </a>
+                        </button>
+
+
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/New-file (2).gif" alt="" width="300" height="400">
+                    </div>
+                    <div class="right flex-1">
+                        <h3>PIYUSH KUMAR</h3>
+                        <h1>I am a Data<span> Engineer.</span></h1>
+                        <p>
+                            Started my journey with strong foundations in programming and problem-solving, 
+                            and gradually transitioned into the world of Data Engineering. I have hands-on
+                             experience with SQL, Python, Talend, & Snowflake,
+                            and I enjoy building scalable ETL pipelines and cloud-based solutions on
+                            Google Cloud Platform (BigQuery, Dataflow, Pub/Sub). Alongside, I keep 
+                            sharpening my Data Structures and Algorithms to stay competitive and aim to
+                             evolve further into Data Science and Generative AI.
+                        </p>
+                        <div>
+                            <button class="btn btn-primary">
+                                <a href="resume/Piyush Kumar- Data Engineer.pdf" download>Download CV</a>
+
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="">
+                    <img class="about-me-image" src="./images/BBB.jpg" alt="" width="400" height="500">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello you !!</h3>
+                    <p>
+                        This is <b>Piyush Kumar</b>, a <b>Data Engineer</b> at <b>Accenture</b> with a strong foundation in
+                        <b>Programming</b> and a passion for <b>building data-driven solutions</b>. Originally from
+                        <b>Sitamarhi</b>, Bihar (birthplace of Goddess Sita), I have always been curious about exploring
+                        new perspectives—both through technology and through traveling.
+                    </p>
+                    <p>
+                        My <b>hobbies</b> include traveling and experiencing different cultures, cuisines, and traditions,
+                         which inspires me to bring creativity and openness into my professional life as well.
+                    </p>
+                    <p>
+                        On the <b>technical sid</b>e, I specialize in <b>Data Engineering and Cloud technologies</b>, with hands-on
+                        experience in <b>SQL, Python, Talend, Snowflake, and Google Cloud Platform (BigQuery, Dataflow,
+                        Pub/Sub)</b>. I enjoy <b>designing ETL pipelines, data integration workflows, and scalable 
+                        cloud-based solutions</b>. I also continue to strengthen my <b>problem-solving skills</b> through 
+                        <b>Data Structures & Algorithms</b> and stay updated with <b>Machine Learning and Generative AI</b> trends
+                        to future-proof my career.
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100005490317503"><img
+                                src="./images/Facebook-logo.png" alt="" width="30" height="20"></a>
+                        <a href="https://www.instagram.com/ig__piyush20/"><img src="./images/insta.jpg" alt=""
+                                width="30" height="20"></a>
+                        <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/"><img src="./images/link.png"
+                                alt="" width="30" height="20"></a>
+                        <a href="https://twitter.com/PiyushS02032608"><img src="./images/Twitter.png" alt="" width="30"
+                                height="20"></a>
+                        <a href="https://github.com/Piyush-codr"><img src="./images/github.png" alt=""
+                                width="30" height="20"></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Education" class="Education">
+            <div class="container">
+                <h1 class="section-heading">Edu<span>cation</span></h1>
+                <p><span>My Academic Timeline.</span></p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <a href="https://www.hellensschoolsitamarhi.in/">
+                            <img src="./images/hellens school.jpg" alt="" width="130" height="130"></a>
+                        <h2>Hellens School, Sitamarhi</h2>
+                        <p>2009- 2018</p>
+                        <p>Matriculatiion - 67%.</p>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.vvmranchi.edu.in/">
+                            <img src="./images/Vivekanada_Vidya_Mandir.jpg" alt="" width="130" height="130"></a>
+
+                        <h2>Vivekanada Vidya Mandir</h2>
+                        <p>2018-2020</p>
+                        <p>Intermediate - 82%</p>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.giet.edu/">
+                            <img src="./images/GIET.jpg" alt="" width="130" height="130"></a>
+                        <h2>GIET University, Gunupur</h2>
+                        <p>2020 - 2024 </p>
+                        <p>BTech - 8.13 CGPA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects" class="projects">
+            <h1>My Creations</h1>
+            <p>A collection of projects, I have created and explored during my learning journey</p>
+            <button class="btn btn-primary">
+                <a href="resume/Piyush Kumar- Data Engineer.pdf" download>Download CV</a>
+            </button>
+
+        </section>
+        <section class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Projects & </span>Internship</h1>
+                <p>
+                    Here are some of my projects and internship which I have done previously.
+                </p>
+                <div class="slider">
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/College-Management-System-">CMS</a>
+                        </div>
+                        <img src="./images/CMS.jpg" alt="" width="100" height="100">
+                        <h1>CMS</h1>
+                        <p>College Management System deals with all kind of student details, academic related reports,
+                            college
+                            details, course details, curriculum, batch details and other resource related details too.
+                            It tracks all the
+                            details of a student from the day one to the end of his course which can be used for all
+                            reporting
+                            purpose. This project is made in HTML, CSS, Javascript and database as Sql.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Company-Information-System">CIS</a>
+                        </div>
+                        <img src="./images/employee.jpg" alt="" width="100" height="100">
+                        <h1>CIS</h1>
+                        <p>Company Information System is distributed command line interface, developed to maintain the
+                            details of employees
+                            working in any organisation. The CIS has been developed to override the problems prevailing
+                            in the practicing manual system.
+                            It maintains the information about the personal and official details of the employees.
+                            This project is made in Java. </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Sales-Representation-">sales dashboard</a>
+                        </div>
+                        <img src="./images/sales.jpg" alt="" width="100" height="100">
+                        <h1>Sales Dashboard</h1>
+                        <p>This RX Sales measures and monitors the performance of a UK pharmaceutical sales
+                            representative in areas
+                            where there are dispensing doctors.
+                            A sales representative or sales manager would use this application to see how they were
+                            performing with
+                            respect to their peers. This project is made during my internship with Lagozon Edutech
+                            Company.
+                            This project is made by using powerBI.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Rainfall-Prediction-System">RPS</a>
+                        </div>
+                        <img src="./images/Rainfall prediction.jpg" alt="" width="100" height="100">
+                        <h1>RPS</h1>
+                        <p>Rainfall Prediction System using ml predicts the rainfall in thi given area for its current
+                            or next 2
+                            upcoming dates. It will give you the whole details about the weather & temperature. It will
+                            be very
+                            benificial for the agriculture industry as well as the farmers. It is made in Pyhton
+                            language.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Gym-Master-System-">Gym Master System</a>
+                        </div>
+                        <img src="./images/gym.webp" alt="" width="100" height="100">
+                        <h1>Gym site</h1>
+                        <p>.Sometimes it creates a trouble when members lost their receipts.The other problem that can
+                            be faced
+                            by a gym owner is that if he/she wants to inform any message related to working or non
+                            working
+                            days of gym, manually sending message become difficult . If there is online application
+                            available
+                            these problems can be solved. Here, I am using database as MongoDB and all front-end in
+                            HTML, CSS
+                            & Javascript.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Crop-Recommendation-System">CRS</a>
+                        </div>
+                        <img src="./images/cropify.png" alt="" width="100" height="100">
+                        <h1>CRS</h1>
+                        <p>Crop Recommendation System will tell you about which soil suits which plant on the
+                            basis of 1000 samples of soil data.
+                            It will give you the whole details about the soil that it contains which qulaity.
+                            be very
+                            benificial for the agriculture industry as well as the farmers. It is made in Python
+                            language.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a
+                                href="https://github.com/Piyush-codr/Student-Score-Prediction-project-Sparks-Foundation-">SSP</a>
+                        </div>
+                        <img src="./images/SSP.png" alt="" width="100" height="100">
+                        <h1>SSP</h1>
+                        <p>Students Score Prediction using Ml predicts the score of the students in his/her
+                            last examination which he/she has given. Also it will tell you that you are pass
+                            or not. This whole project is made in Python.
+                        </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/OIBSIP-Task-3">Temp. Converter</a>
+                        </div>
+                        <a href="https://github.com/Piyush-codr/OIBSIP-Task-3"><img src="./images/ttf.png" alt=""
+                                width="100" height="100"></a>
+                        <h1>Temp. Converter</h1>
+                        <p>It is a web page totally created by using HTML, CSS used to convert Celcius temperature into
+                            Farenheit and Farenheit into Celcius.
+                        </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="">Will upload soon</a>
+                        </div>
+                        <img src="./images/textSummarization.jpeg" alt="" width="100" height="100">
+                        <h1>Text Summarization</h1>
+                        <p>It is a web page totally created by using HTML, CSS and backend processing NLP. Basically,
+                            this
+                            techniques aim to automatically generate concise summaries that effectively represent the
+                            content
+                            of a longer document. This field has broad applications across various domains, including
+                            news
+                            articles, research papers, legal documents, social media posts, and more.
+                        </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                </div>
+                <div class="slider-dots">
+
+                </div>
+            </div>
+        </section>
+        <section id="languages" class="languages">
+            <div class="container">
+                <h1 class="section-heading"><span>Areas of Proficiency</span></h1>
+                <p>A summary of the tools and technologies I work with confidently.
+                </p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/python-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                   <div class="card">
+                        <img src="./images/images-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/TALEND-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/Snowfalkje-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/gcp-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/qlik-removebg-preview.png" alt="" width="150" height="150">
+
+                    </div>
+                     <div class="card">
+                        <img src="./images/bi.jpg" alt="" width="150" height="150">
+
+                    </div>
+                     <div class="card">
+                        <img src="./images/shell-removebg-preview.png" alt="" width="150" height="150">
+
+                     </div>
+                     <div class="card">
+                        <img src="./images/Databricks_Logo-removebg-preview.png" alt="" width="200" height="150">
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </section>
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h1 class="section-heading"><span>Achievements,</span></h1>
+                <p>Validated Skills, Recognized Success
+                </p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_associate-cloud-engineer-activity-7320379656824664065-3qHn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/associate-cloud-engineer-certification (1).png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_associate-data-practitioner-activity-7320012727974866944-qVDn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/associate-data-practitioner-certification (1).png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_cloud-digital-leader-activity-7284286728985554944-Ej6a?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/Cloud Digital Leader Google Meets Background (2).png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_gen-ai-leader-activity-7350986359848816640-zqTn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/generative-ai-leader-certification.png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_qlik-talend-developer-activity-7363856379331178499-qiN-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/qlik-talend-core-data-integration-certified-develop.png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_snowflake-platform-activity-7365602951421235200-z12A?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/snowflake platform.png" alt="" width="150"
+                                height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_snowflake-core-activity-7318932906746265601-4AAa?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/Snowflake badge (1).png" alt="" width="150" height="150"></a>
+
+                    </div>
+                    <div class="card">
+                        <a
+                            href="https://www.linkedin.com/posts/piyush-kumar-7ab1951b8_certificate-activity-6990680406194827264-v9w4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKSizMBilhLbYaFEXEadUIhL0Ktf-4Lf38">
+                            <img src="./images/lagozon.jpeg" alt="" width="150" height="150"></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="Contacts" class="contact">
+            <div class="container">
+                <h1 class="section-heading"><span>Contact </span>Me</h1>
+                <p>Open to Connect & Collaborate</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-5a371872-ee23-4ab5-a2dd-22c54c3509cf"></div>
+                    </div>
+                    <div class="card">
+                        <a href="mailto: piyushsinghstm@gmail.com"><img src="./images/mail.png" alt="" width="60"
+                                height="60"></a>
+
+                    </div>
+                    <div class="card">
+                        <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/"><img src="./images/link.png"
+                                alt="" width="60" height="50"></a>
+                    </div>
+               
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <img class="footer-logo" src="./images/logo piyush.jpg" alt="" height="80" width="90">
+            <div class="foorter-socials">
+                <a href="https://www.facebook.com/profile.php?id=100005490317503"><img src="./images/Facebook-logo.png"
+                        alt="" width="30" height="30"></a>
+                <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/"><img src="./images/link.png" alt=""
+                        height="30" width="30"></a>
+                <a href="https://www.instagram.com/ig__piyush20/"><img src="./images/insta.jpg" alt="" height="30"
+                        width="30"></a>
+                <a href="https://twitter.com/PiyushS02032608"><img src="./images/Twitter.png" alt="" height="30"
+                        width="30"></a>
+                <a href="https://github.com/Piyush-codr"><img src="./images/github.png" alt="" height="30"
+                        width="30"></a>
+            </div>
+            <div class="copyright">
+                Copyright2022@Namex PSDTemplate.All Rights Reserved.
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+   
+    
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script>
+        function sendMail() {
+            emailjs.init("dtvTILdIjkez1ysao");
+    
+            var params = {
+                to: document.querySelector("#to").value,
+                // Other parameters...
+            };
+    
+            var serviceID = "service_1gwjm1f";
+            var templateID = "template_sckt6td";
+    
+            emailjs.send(serviceID, templateID, params)
+            .then(function (res) {
+                alert("Email sent successfully");
+            })
+            .catch(function (error) {
+                console.error("Error sending email:", error);
+            });
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html> 
